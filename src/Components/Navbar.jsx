@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0  text-primary py-5 px-3 md:px-0 transition-all ease-in-out duration-150">
+      <nav className=" top-0 left-0 right-0 text-primary py-5 px-3 md:px-0 transition-all ease-in-out duration-150">
         <div className="container flex flex-row justify-between items-center">
           {/* Title */}
           <div className="flex flex-row items-center justify-center gap-4">
@@ -63,7 +63,6 @@ function Navbar() {
             }>
               <MdPerson className="w-7 h-7" />
             </Link>
-            
           </div>
         </div>
       </nav>
